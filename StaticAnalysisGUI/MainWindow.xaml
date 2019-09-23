@@ -1,0 +1,88 @@
+﻿<Window x:Class="StaticAnalysisGUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:StaticAnalysisGUI"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="646" Width="800">
+    <Grid>
+        
+        <Label Content="GitHub Username" HorizontalAlignment="Left" Margin="66,42,0,0" VerticalAlignment="Top">
+
+        </Label>
+        <Label Content="Repo Name" HorizontalAlignment="Left" Margin="66,109,0,0" VerticalAlignment="Top" Width="102">
+
+        </Label>
+        <Label Content="Acceptance Level(Absolute gating)" HorizontalAlignment="Left" Margin="66,155,0,0" VerticalAlignment="Top" Width="212">
+
+        </Label>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="329,45,0,0" TextWrapping="Wrap" Name="User" VerticalAlignment="Top" Width="120">
+            <TextBox.Effect>
+                <DropShadowEffect/>
+            </TextBox.Effect>
+        </TextBox>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="329,109,0,0" TextWrapping="Wrap" Name="Repo" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.5,0.5">
+            <TextBox.Effect>
+                <DropShadowEffect/>
+            </TextBox.Effect>
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="2.748"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="0.552"/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBox HorizontalAlignment="Left" Height="26" Margin="329,155,0,0" TextWrapping="Wrap" Name="Level" VerticalAlignment="Top" Width="120">
+            <TextBox.Effect>
+                <DropShadowEffect/>
+            </TextBox.Effect>
+        </TextBox>
+        <Button Content="Check" Style="{StaticResource btnBlue}" HorizontalAlignment="Left" Margin="66,389,0,0" VerticalAlignment="Top" Width="Auto" Click="Button_Click">
+            <Button.Effect>
+                <DropShadowEffect Color="#FFDC5B5B" BlurRadius="8"/>
+            </Button.Effect>
+        </Button>
+        <ScrollViewer x:Name="ScrollViewer"  HorizontalAlignment="Left" Height="Auto"  Margin="483,37,0,0" VerticalAlignment="Top" Width="Auto" BorderBrush="#FF2E2EF9">
+            <TextBox x:Name="Scroller" TextWrapping="Wrap">
+
+            </TextBox>
+        </ScrollViewer>
+        <Button x:Name="Btn2" Style="{StaticResource btnBlue}" Content="Generate Error and Duplication report" HorizontalAlignment="Left" Margin="66,289,0,0" VerticalAlignment="Top" Width="Auto" Click="Btn2_Click" RenderTransformOrigin="0.44,0.3">
+            <Button.Effect>
+                <DropShadowEffect BlurRadius="7" Color="#FFD44D4D"/>
+            </Button.Effect>
+        </Button>
+        <Button Content="Show Metrics" Style="{StaticResource btnBlue}" HorizontalAlignment="Left" Margin="66,340,0,0" VerticalAlignment="Top" Width="Auto" Click="Button_Click_1">
+            <Button.Effect>
+                <DropShadowEffect Color="#FFB64D4D" BlurRadius="7"/>
+            </Button.Effect>
+        </Button>
+        <StackPanel  Orientation="Vertical" HorizontalAlignment="Left" Height="Auto" Margin="66,215,0,0" VerticalAlignment="Top" Width="Auto">
+            <StackPanel Orientation="Horizontal">
+                <Label Content="Duplicate Count"/>
+                <TextBox x:Name="tb1" TextWrapping="Wrap" Text="" Margin="0,0,31,0" Height="22" Width="120">
+                    <TextBox.Effect>
+                        <DropShadowEffect/>
+                    </TextBox.Effect>
+                </TextBox>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                
+                <Label Content="Issues Count      "/>
+                <TextBox x:Name="tb2" TextWrapping="Wrap" Text="" Margin="0,0,31,0" Height="22" Width="119">
+                    <TextBox.Effect>
+                        <DropShadowEffect/>
+                    </TextBox.Effect>
+                </TextBox>
+            </StackPanel>
+        </StackPanel>
+        <Button Content="Set gate through a reference repository" HorizontalAlignment="Left" Margin="66,537,0,0" VerticalAlignment="Top" Width="223" Height="43" Click="Button_Click_2"/>
+        <Label Content="Current Acceptance Level" HorizontalAlignment="Left" Margin="72,476,0,0" VerticalAlignment="Top" RenderTransformOrigin="-3.105,1.192"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="266,476,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+
+    </Grid>
+
+</Window>
