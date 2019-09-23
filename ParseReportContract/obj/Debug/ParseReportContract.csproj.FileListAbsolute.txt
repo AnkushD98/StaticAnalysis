@@ -1,0 +1,12 @@
+C:\Users\320053936\source\repos\RunToolContract\ParseReportContract\bin\Debug\ParseReportContract.dll
+C:\Users\320053936\source\repos\RunToolContract\ParseReportContract\bin\Debug\ParseReportContract.pdb
+C:\Users\320053936\source\repos\RunToolContract\ParseReportContract\obj\Debug\ParseReportContract.csproj.CoreCompileInputs.cache
+C:\Users\320053936\source\repos\RunToolContract\ParseReportContract\obj\Debug\ParseReportContract.dll
+C:\Users\320053936\source\repos\RunToolContract\ParseReportContract\obj\Debug\ParseReportContract.pdb
+C:\Users\320053936\source\repos\RunToolContract\ParseReportContract\obj\Debug\ParseReportContract.csprojAssemblyReference.cache
+D:\MS1-Group1\StaticAnalysisCodingGatingAndReporting\ParseReportContract\bin\Debug\ParseReportContract.dll
+D:\MS1-Group1\StaticAnalysisCodingGatingAndReporting\ParseReportContract\bin\Debug\ParseReportContract.pdb
+D:\MS1-Group1\StaticAnalysisCodingGatingAndReporting\ParseReportContract\obj\Debug\ParseReportContract.csprojAssemblyReference.cache
+D:\MS1-Group1\StaticAnalysisCodingGatingAndReporting\ParseReportContract\obj\Debug\ParseReportContract.csproj.CoreCompileInputs.cache
+D:\MS1-Group1\StaticAnalysisCodingGatingAndReporting\ParseReportContract\obj\Debug\ParseReportContract.dll
+D:\MS1-Group1\StaticAnalysisCodingGatingAndReporting\ParseReportContract\obj\Debug\ParseReportContract.pdb
