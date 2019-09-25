@@ -34,3 +34,5 @@ D:\MS1-Group1\StaticAnalysisCodingGatingAndReporting\ParseReportResharper\obj\De
 D:\MS1-Group1\StaticAnalysisCodingGatingAndReporting\ParseReportResharper\obj\Debug\ParseReportResharper.csproj.CopyComplete
 D:\MS1-Group1\StaticAnalysisCodingGatingAndReporting\ParseReportResharper\obj\Debug\ParseReportResharper.dll
 D:\MS1-Group1\StaticAnalysisCodingGatingAndReporting\ParseReportResharper\obj\Debug\ParseReportResharper.pdb
+D:\MS1-Group1\StaticAnalysisCodingGatingAndReporting\ParseReportResharper\bin\ParseReportResharper.dll.CodeAnalysisLog.xml
+D:\MS1-Group1\StaticAnalysisCodingGatingAndReporting\ParseReportResharper\bin\ParseReportResharper.dll.lastcodeanalysissucceeded

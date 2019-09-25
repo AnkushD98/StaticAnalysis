@@ -17,7 +17,6 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using ParseReportResharper;
 using FinalDecisionGatingParameter;
-using FinalDecisionGatingParameter;
 
 namespace StaticAnalysisGUI
 {
@@ -34,7 +33,7 @@ namespace StaticAnalysisGUI
         private void Button_Click(object sender, RoutedEventArgs e)
         {
 
-            //ServiceReference1.Service1Client analyser = new ServiceReference1.Service1Client();
+            
             string username, reponame, level;
             username = User.Text;
             reponame = Repo.Text;
@@ -43,18 +42,18 @@ namespace StaticAnalysisGUI
             string url =string.Format(
                 "http://localhost:60202/Service1.svc/StaticAnalyserTool/Absolute/{0}/{1}/{2}",
                 username,reponame,level);
-            //string output = analyser.StaticAnalyserToolControllerAbsolute(username, reponame, "Level4");
+          
             byte[] data = analyser.DownloadData(url);
             
             MessageBox.Show(Encoding.ASCII.GetString(data));
 
-
+            analyser.Dispose();
         }
 
         private void Btn2_Click(object sender, RoutedEventArgs e)
         {
             Scroller.Text = "Analyzing...";
-            string report = File.ReadAllText(@"C:\Users\320050487\Desktop\Reports\ToolErrorDuplicationReport.txt");
+            string report = File.ReadAllText("C:" + "\\Users\\" + Environment.UserName +@"\Desktop\Reports\ToolErrorDuplicationReport.txt");
             Scroller.Text = report;
         }
 
@@ -62,17 +61,11 @@ namespace StaticAnalysisGUI
         {
             Service1 obj=new Service1();
             int issues = obj.ParseResharperErrorReport();
-            int dups = obj.ParseResharperErrorReport();
+            int dups = obj.ParseResharperDuplicationReport();
             tb1.Text = dups.ToString();
             tb2.Text = issues.ToString();
         }
 
-        private void Button_Click_2(object sender, RoutedEventArgs e)
-        {
-           //FinalDecisionGatingParameter.FinalDecisionGatingParameter obj=new FinalDecisionGatingParameter.FinalDecisionGatingParameter();
-           // StaticAnalyserToolController.Service1 obj1=new StaticAnalyserToolController.Service1();
-           // obj1.StaticAnalyserToolController()
-           // obj.MakeFinalDecisionRelativeParameter(, )
-        }
+        
     }
 }

@@ -12,7 +12,8 @@ C:\Users\320053936\source\repos\StaticAnalysisCodingGatingAndReporting\ValidityO
 C:\Users\320053936\source\repos\StaticAnalysisCodingGatingAndReporting\ValidityOfUserInput\obj\Debug\ValidityOfUserInput.pdb
 D:\MS1-Group1\StaticAnalysisCodingGatingAndReporting\ValidityOfUserInput\bin\Debug\ValidityOfUserInput.dll
 D:\MS1-Group1\StaticAnalysisCodingGatingAndReporting\ValidityOfUserInput\bin\Debug\ValidityOfUserInput.pdb
-D:\MS1-Group1\StaticAnalysisCodingGatingAndReporting\ValidityOfUserInput\obj\Debug\PredefinedAcceptedLevelsAbsoluteGating.csprojAssemblyReference.cache
 D:\MS1-Group1\StaticAnalysisCodingGatingAndReporting\ValidityOfUserInput\obj\Debug\PredefinedAcceptedLevelsAbsoluteGating.csproj.CoreCompileInputs.cache
 D:\MS1-Group1\StaticAnalysisCodingGatingAndReporting\ValidityOfUserInput\obj\Debug\ValidityOfUserInput.dll
 D:\MS1-Group1\StaticAnalysisCodingGatingAndReporting\ValidityOfUserInput\obj\Debug\ValidityOfUserInput.pdb
+D:\MS1-Group1\StaticAnalysisCodingGatingAndReporting\ValidityOfUserInput\bin\Debug\ValidityOfUserInput.dll.CodeAnalysisLog.xml
+D:\MS1-Group1\StaticAnalysisCodingGatingAndReporting\ValidityOfUserInput\bin\Debug\ValidityOfUserInput.dll.lastcodeanalysissucceeded

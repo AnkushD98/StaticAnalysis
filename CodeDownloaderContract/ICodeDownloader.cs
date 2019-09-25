@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CodeDownloaderContract
 {
-    interface ICodeDownloader
+    public interface ICodeDownloader
     {
         void DownloadCode(string userName, string repositoryName);
         

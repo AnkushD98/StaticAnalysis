@@ -11,23 +11,23 @@ using System.Xml.Linq;
 
 namespace ParseReportResharper
 {
-    
     public class Service1 : IService1,ParseReportContract.IParseReport
     {
+      
         public int ParseResharperErrorReport()
         {
             int totalNumberOfIssues = 0;
             FileStream fileStream;
             StreamWriter streamWriter;
             TextWriter textWriter = Console.Out;
-            fileStream = new FileStream(@"C:\Users\320053936\Desktop\Reports\ToolErrorDuplicationReport.txt", FileMode.OpenOrCreate, FileAccess.Write);
+            fileStream = new FileStream("C:" + "\\Users\\" + Environment.UserName + @"\Desktop\Reports\ToolErrorDuplicationReport.txt", FileMode.OpenOrCreate, FileAccess.Write);
             streamWriter = new StreamWriter(fileStream);
             Console.SetOut(streamWriter);
             
-            XDocument Root = XDocument.Load(@"C:\Users\320053936\Downloads\ReSharper\PractiseAppReSharper.xml");
+            XDocument Root = XDocument.Load("C:" + "\\Users\\" + Environment.UserName +@"\Downloads\ReSharper\PractiseAppReSharper.xml");
 
             Console.WriteLine("************************ReSharper Report*********************************");
-
+            Console.WriteLine("ERROR REPORT");
             foreach (XElement childNode in Root.Descendants("Report"))
             {
                 foreach (XElement categoryNode in childNode.Descendants("Issues"))
@@ -49,16 +49,17 @@ namespace ParseReportResharper
                             numberOfIssues = numberOfIssues + 1;
                         }
                         totalNumberOfIssues = totalNumberOfIssues + numberOfIssues;
-
+                        
                     }
                 }
             }
+            Console.WriteLine("Total number of issues:" + totalNumberOfIssues);
 
-           
             Console.SetOut(textWriter);
             streamWriter.Close();
             fileStream.Close();
             Console.WriteLine("ReSharper Output printed to text file successfully");
+            
             return totalNumberOfIssues;
         }
         public int ParseResharperDuplicationReport()
@@ -67,13 +68,15 @@ namespace ParseReportResharper
             FileStream fileStream;
             StreamWriter streamWriter;
             TextWriter textWriter = Console.Out;
-            fileStream = new FileStream(@"C:\Users\320053936\Desktop\Reports\ToolErrorDuplicationReport.txt", FileMode.OpenOrCreate, FileAccess.Write);
+            fileStream = new FileStream("C:" + "\\Users\\" + Environment.UserName +@"\Desktop\Reports\ToolErrorDuplicationReport.txt",
+                FileMode.OpenOrCreate, FileAccess.Write);
             streamWriter = new StreamWriter(fileStream);
             Console.SetOut(streamWriter);
             
-            XDocument RootDuplicates = XDocument.Load(@"C:\Users\320053936\Downloads\ReSharper\PractiseAppReSharperDupFinder.xml");
+            XDocument RootDuplicates = XDocument.Load("C:" + "\\Users\\" + Environment.UserName +@"\Downloads\ReSharper\PractiseAppReSharperDupFinder.xml");
             int countDuplicates = 0;
             int numberOfIssuesDuplicate = 0;
+            Console.WriteLine("DUPLICATION REPORT");
             foreach (XElement childNode in RootDuplicates.Descendants("DuplicatesReport"))
             {
                 foreach (XElement duplicateNode in childNode.Descendants("Duplicates"))
@@ -96,24 +99,30 @@ namespace ParseReportResharper
                 totalNumberOfDuplicates = totalNumberOfDuplicates + numberOfIssuesDuplicate;
             }
 
+            Console.WriteLine("Total number of duplicates:"+totalNumberOfDuplicates);
             Console.SetOut(textWriter);
             streamWriter.Close();
             fileStream.Close();
             Console.WriteLine("ReSharper Output printed to text file successfully");
+            
+            
             return totalNumberOfDuplicates;
 
         }
         public string ParseReport(string repositoryName)
         {
+            var fileStream = new FileStream("C:" + "\\Users\\" + Environment.UserName +@"\Desktop\Reports\ToolErrorDuplicationReport.txt"
+                , FileMode.OpenOrCreate, FileAccess.Write);
+            fileStream.SetLength(0);
+            fileStream.Close();
             int totalNumberOfErrors = 0;
             int totalNumberOfDuplicates = 0;
-            Thread parseReportThread = new Thread(() => { totalNumberOfErrors = ParseResharperErrorReport(); totalNumberOfDuplicates = ParseResharperDuplicationReport(); });
-            parseReportThread.Start();
-            parseReportThread.Join();
+            totalNumberOfErrors = ParseResharperErrorReport();
+                totalNumberOfDuplicates = ParseResharperDuplicationReport(); 
             string totalNumberOfIssues = totalNumberOfErrors + "," + totalNumberOfDuplicates;
             LogIssuesFileLib.LogIssuesFile logIssuesFile = new LogIssuesFileLib.LogIssuesFile();
             logIssuesFile.WriteIssuesToFile(totalNumberOfIssues,repositoryName);
-
+            
             return totalNumberOfIssues;
         }
     }

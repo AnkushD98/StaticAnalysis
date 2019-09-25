@@ -6,7 +6,8 @@ C:\Users\320053936\source\repos\RunToolContract\GithubCodeDownloader\obj\Debug\G
 C:\Users\320053936\source\repos\RunToolContract\GithubCodeDownloader\obj\Debug\GithubCodeDownloader.pdb
 D:\MS1-Group1\StaticAnalysisCodingGatingAndReporting\GithubCodeDownloader\bin\Debug\GithubCodeDownloader.dll
 D:\MS1-Group1\StaticAnalysisCodingGatingAndReporting\GithubCodeDownloader\bin\Debug\GithubCodeDownloader.pdb
-D:\MS1-Group1\StaticAnalysisCodingGatingAndReporting\GithubCodeDownloader\obj\Debug\GithubCodeDownloader.csprojAssemblyReference.cache
 D:\MS1-Group1\StaticAnalysisCodingGatingAndReporting\GithubCodeDownloader\obj\Debug\GithubCodeDownloader.csproj.CoreCompileInputs.cache
 D:\MS1-Group1\StaticAnalysisCodingGatingAndReporting\GithubCodeDownloader\obj\Debug\GithubCodeDownloader.dll
 D:\MS1-Group1\StaticAnalysisCodingGatingAndReporting\GithubCodeDownloader\obj\Debug\GithubCodeDownloader.pdb
+D:\MS1-Group1\StaticAnalysisCodingGatingAndReporting\GithubCodeDownloader\bin\Debug\GithubCodeDownloader.dll.CodeAnalysisLog.xml
+D:\MS1-Group1\StaticAnalysisCodingGatingAndReporting\GithubCodeDownloader\bin\Debug\GithubCodeDownloader.dll.lastcodeanalysissucceeded

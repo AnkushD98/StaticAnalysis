@@ -9,10 +9,10 @@ namespace StaticAnalyserToolSchedular
 {
     public class StaticAnalyserToolSchedular
     {
-        private RunToolContract.IRunTool _toolName;
-        private ParseReportContract.IParseReport _parseReport;
-        public string totalNumberOfIssues;
-        private string _repositoryName;
+        private readonly RunToolContract.IRunTool _toolName;
+        private readonly ParseReportContract.IParseReport _parseReport;
+        public string TotalNumberOfIssues { get; set; }
+        private readonly string _repositoryName;
         public StaticAnalyserToolSchedular(RunToolContract.IRunTool toolName,ParseReportContract.IParseReport parseReport, string repositoryName)
         {
                 this._toolName = toolName;
@@ -23,9 +23,8 @@ namespace StaticAnalyserToolSchedular
         public void ScheduleTool()
         {
             
-            Thread scheduleTool = new Thread(() => { _toolName.RunTool(_repositoryName); totalNumberOfIssues = _parseReport.ParseReport(_repositoryName); });
-            scheduleTool.Start();
-            scheduleTool.Join();
+             _toolName.RunTool(_repositoryName);
+            TotalNumberOfIssues = _parseReport.ParseReport(_repositoryName);
         }
     }
 }

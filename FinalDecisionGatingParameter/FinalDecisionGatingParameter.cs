@@ -18,7 +18,7 @@ namespace FinalDecisionGatingParameter
         }
         public bool MakeFinalDecisionRelativeParameter(int totalNumberOfIssues,string repositoryName)
         {
-            string Path = "C:\\Users\\320053936\\Desktop\\ThresholdCheck\\";
+            string Path = "C:" + "\\Users\\" + Environment.UserName +"\\Desktop\\ThresholdCheck\\";
             string solnName = "Threshold" + repositoryName;
             string filePath = Path + solnName + ".txt";
             PredefinedAcceptedLevelsAbsoluteGating.AcceptedLevels acceptedLevels = new PredefinedAcceptedLevelsAbsoluteGating.AcceptedLevels();

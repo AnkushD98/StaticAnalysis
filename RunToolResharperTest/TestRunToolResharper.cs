@@ -13,7 +13,7 @@ namespace RunToolResharperTest
             RunToolResharper.Service1 resharperTool = new RunToolResharper.Service1();
             string repositoryName = "PractiseApp";
             resharperTool.RunResharperErrorTool(repositoryName);
-            if(File.Exists(@"C:\Users\320053936\Downloads\ReSharper\PractiseAppReSharper.xml"))
+            if(File.Exists(@"C:\Users\320050487\Downloads\ReSharper\PractiseAppReSharper.xml"))
             {
                 Assert.IsTrue(true);
             }
@@ -28,7 +28,7 @@ namespace RunToolResharperTest
             RunToolResharper.Service1 resharperTool = new RunToolResharper.Service1();
             string repositoryName = "PractiseApp";
             resharperTool.RunResharperDuplicationTool(repositoryName);
-            if (File.Exists(@"C:\Users\320053936\Downloads\ReSharper\practiseappresharperdupfinder.xml"))
+            if (File.Exists(@"C:\Users\320050487\Downloads\ReSharper\practiseappresharperdupfinder.xml"))
             {
                 Assert.IsTrue(true);
             }
@@ -37,6 +37,17 @@ namespace RunToolResharperTest
                 Assert.IsTrue(false);
             }
         }
+
+        [TestMethod]
+        public void Check_RunTool()
+        {
+            RunToolResharper.Service1 resharperTool = new RunToolResharper.Service1();
+            string repositoryName = "PractiseApp";
+            string actual = resharperTool.RunTool(repositoryName);
+            string expected = "Resharper error and duplication tools succcessfully run";
+            Assert.AreEqual(expected, actual);
+        }
+
 
     }
 }

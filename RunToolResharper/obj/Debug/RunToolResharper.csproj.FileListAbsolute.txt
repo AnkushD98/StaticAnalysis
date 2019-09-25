@@ -28,3 +28,5 @@ D:\MS1-Group1\StaticAnalysisCodingGatingAndReporting\RunToolResharper\obj\Debug\
 D:\MS1-Group1\StaticAnalysisCodingGatingAndReporting\RunToolResharper\obj\Debug\RunToolResharper.csproj.CopyComplete
 D:\MS1-Group1\StaticAnalysisCodingGatingAndReporting\RunToolResharper\obj\Debug\RunToolResharper.dll
 D:\MS1-Group1\StaticAnalysisCodingGatingAndReporting\RunToolResharper\obj\Debug\RunToolResharper.pdb
+D:\MS1-Group1\StaticAnalysisCodingGatingAndReporting\RunToolResharper\bin\RunToolResharper.dll.CodeAnalysisLog.xml
+D:\MS1-Group1\StaticAnalysisCodingGatingAndReporting\RunToolResharper\bin\RunToolResharper.dll.lastcodeanalysissucceeded

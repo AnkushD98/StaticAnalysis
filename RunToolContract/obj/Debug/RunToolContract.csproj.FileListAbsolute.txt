@@ -6,7 +6,8 @@ C:\Users\320053936\source\repos\RunToolContract\RunToolContract\obj\Debug\RunToo
 C:\Users\320053936\source\repos\RunToolContract\RunToolContract\obj\Debug\RunToolContract.pdb
 D:\MS1-Group1\StaticAnalysisCodingGatingAndReporting\RunToolContract\bin\Debug\RunToolContract.dll
 D:\MS1-Group1\StaticAnalysisCodingGatingAndReporting\RunToolContract\bin\Debug\RunToolContract.pdb
-D:\MS1-Group1\StaticAnalysisCodingGatingAndReporting\RunToolContract\obj\Debug\RunToolContract.csprojAssemblyReference.cache
 D:\MS1-Group1\StaticAnalysisCodingGatingAndReporting\RunToolContract\obj\Debug\RunToolContract.csproj.CoreCompileInputs.cache
 D:\MS1-Group1\StaticAnalysisCodingGatingAndReporting\RunToolContract\obj\Debug\RunToolContract.dll
 D:\MS1-Group1\StaticAnalysisCodingGatingAndReporting\RunToolContract\obj\Debug\RunToolContract.pdb
+D:\MS1-Group1\StaticAnalysisCodingGatingAndReporting\RunToolContract\bin\Debug\RunToolContract.dll.CodeAnalysisLog.xml
+D:\MS1-Group1\StaticAnalysisCodingGatingAndReporting\RunToolContract\bin\Debug\RunToolContract.dll.lastcodeanalysissucceeded

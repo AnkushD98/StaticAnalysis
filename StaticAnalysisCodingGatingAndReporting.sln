@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29201.188
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.705
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeDownloaderContract", "CodeDownloaderContract\CodeDownloaderContract.csproj", "{846F5833-4769-461D-8F64-259AA6B44430}"
 EndProject
@@ -36,6 +36,11 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticAnalyserToolSchedular", "StaticAnalyserToolSchedular\StaticAnalyserToolSchedular.csproj", "{157C0044-579E-4DFB-96DC-A0B329D6330D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PredefinedAcceptedLevelsAbsoluteGating", "ValidityOfUserInput\PredefinedAcceptedLevelsAbsoluteGating.csproj", "{ED4D08C1-63DB-455E-9567-DBD31A09E39C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticAnalysisGUI", "StaticAnalysisGUI\StaticAnalysisGUI.csproj", "{61A143AB-C7A0-4D81-BE78-E4411694955A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F59222EC-56FC-410B-8664-C91149E5AD0E} = {F59222EC-56FC-410B-8664-C91149E5AD0E}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +116,10 @@ Global
 		{ED4D08C1-63DB-455E-9567-DBD31A09E39C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED4D08C1-63DB-455E-9567-DBD31A09E39C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED4D08C1-63DB-455E-9567-DBD31A09E39C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61A143AB-C7A0-4D81-BE78-E4411694955A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61A143AB-C7A0-4D81-BE78-E4411694955A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61A143AB-C7A0-4D81-BE78-E4411694955A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61A143AB-C7A0-4D81-BE78-E4411694955A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

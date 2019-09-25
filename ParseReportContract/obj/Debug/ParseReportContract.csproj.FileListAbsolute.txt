@@ -6,7 +6,8 @@ C:\Users\320053936\source\repos\RunToolContract\ParseReportContract\obj\Debug\Pa
 C:\Users\320053936\source\repos\RunToolContract\ParseReportContract\obj\Debug\ParseReportContract.csprojAssemblyReference.cache
 D:\MS1-Group1\StaticAnalysisCodingGatingAndReporting\ParseReportContract\bin\Debug\ParseReportContract.dll
 D:\MS1-Group1\StaticAnalysisCodingGatingAndReporting\ParseReportContract\bin\Debug\ParseReportContract.pdb
-D:\MS1-Group1\StaticAnalysisCodingGatingAndReporting\ParseReportContract\obj\Debug\ParseReportContract.csprojAssemblyReference.cache
 D:\MS1-Group1\StaticAnalysisCodingGatingAndReporting\ParseReportContract\obj\Debug\ParseReportContract.csproj.CoreCompileInputs.cache
 D:\MS1-Group1\StaticAnalysisCodingGatingAndReporting\ParseReportContract\obj\Debug\ParseReportContract.dll
 D:\MS1-Group1\StaticAnalysisCodingGatingAndReporting\ParseReportContract\obj\Debug\ParseReportContract.pdb
+D:\MS1-Group1\StaticAnalysisCodingGatingAndReporting\ParseReportContract\bin\Debug\ParseReportContract.dll.CodeAnalysisLog.xml
+D:\MS1-Group1\StaticAnalysisCodingGatingAndReporting\ParseReportContract\bin\Debug\ParseReportContract.dll.lastcodeanalysissucceeded

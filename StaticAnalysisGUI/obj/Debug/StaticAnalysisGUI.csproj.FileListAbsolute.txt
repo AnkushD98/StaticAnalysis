@@ -38,3 +38,5 @@ D:\MS1-Group1\StaticAnalysisCodingGatingAndReporting\StaticAnalysisGUI\bin\Debug
 D:\MS1-Group1\StaticAnalysisCodingGatingAndReporting\StaticAnalysisGUI\bin\Debug\LogIssuesFileLib.pdb
 D:\MS1-Group1\StaticAnalysisCodingGatingAndReporting\StaticAnalysisGUI\obj\Debug\StaticAnalysisGUI.csproj.CopyComplete
 D:\MS1-Group1\StaticAnalysisCodingGatingAndReporting\StaticAnalysisGUI\obj\Debug\App.baml
+D:\MS1-Group1\StaticAnalysisCodingGatingAndReporting\StaticAnalysisGUI\bin\Debug\StaticAnalysisGUI.exe.CodeAnalysisLog.xml
+D:\MS1-Group1\StaticAnalysisCodingGatingAndReporting\StaticAnalysisGUI\bin\Debug\StaticAnalysisGUI.exe.lastcodeanalysissucceeded

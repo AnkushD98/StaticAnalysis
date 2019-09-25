@@ -29,6 +29,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -56,7 +57,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\RunToolContract\ParseReportResharper\ParseReportResharper.csproj">
+    <ProjectReference Include="..\ParseReportResharper\ParseReportResharper.csproj">
       <Project>{8d727837-c110-4ef8-8830-3dd389132198}</Project>
       <Name>ParseReportResharper</Name>
     </ProjectReference>

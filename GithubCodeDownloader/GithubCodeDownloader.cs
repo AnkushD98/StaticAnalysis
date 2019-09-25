@@ -3,15 +3,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using CodeDownloaderContract;
 namespace GithubCodeDownloader
 {
-    public class GithubCodeDownloader
+    public class GithubCodeDownloader:ICodeDownloader
     {
 
         public void DownloadCode(string userName, string repositoryName)
         {
-            string currentDirectory = "C:\\Users\\320050487\\Downloads";
+            string currentDirectory = "C:\\Users\\" + Environment.UserName + "\\Downloads";
             string stringCommandText = "/c git clone https://github.com/";
             stringCommandText += userName + "/";
             stringCommandText += repositoryName + ".git";

@@ -6,7 +6,8 @@ C:\Users\320053936\source\repos\CodeGatingAndReporting\LogIssuesFileLib\obj\Debu
 C:\Users\320053936\source\repos\CodeGatingAndReporting\LogIssuesFileLib\obj\Debug\LogIssuesFileLib.pdb
 D:\MS1-Group1\StaticAnalysisCodingGatingAndReporting\LogIssuesFileLib\bin\Debug\LogIssuesFileLib.dll
 D:\MS1-Group1\StaticAnalysisCodingGatingAndReporting\LogIssuesFileLib\bin\Debug\LogIssuesFileLib.pdb
-D:\MS1-Group1\StaticAnalysisCodingGatingAndReporting\LogIssuesFileLib\obj\Debug\LogIssuesFileLib.csprojAssemblyReference.cache
 D:\MS1-Group1\StaticAnalysisCodingGatingAndReporting\LogIssuesFileLib\obj\Debug\LogIssuesFileLib.csproj.CoreCompileInputs.cache
 D:\MS1-Group1\StaticAnalysisCodingGatingAndReporting\LogIssuesFileLib\obj\Debug\LogIssuesFileLib.dll
 D:\MS1-Group1\StaticAnalysisCodingGatingAndReporting\LogIssuesFileLib\obj\Debug\LogIssuesFileLib.pdb
+D:\MS1-Group1\StaticAnalysisCodingGatingAndReporting\LogIssuesFileLib\bin\Debug\LogIssuesFileLib.dll.CodeAnalysisLog.xml
+D:\MS1-Group1\StaticAnalysisCodingGatingAndReporting\LogIssuesFileLib\bin\Debug\LogIssuesFileLib.dll.lastcodeanalysissucceeded

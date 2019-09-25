@@ -79,7 +79,7 @@
                 </TextBox>
             </StackPanel>
         </StackPanel>
-        <Button Content="Set gate through a reference repository" HorizontalAlignment="Left" Margin="66,537,0,0" VerticalAlignment="Top" Width="223" Height="43" Click="Button_Click_2"/>
+        <Button Content="Set gate through a reference repository" HorizontalAlignment="Left" Margin="66,537,0,0" VerticalAlignment="Top" Width="223" Height="43" />
         <Label Content="Current Acceptance Level" HorizontalAlignment="Left" Margin="72,476,0,0" VerticalAlignment="Top" RenderTransformOrigin="-3.105,1.192"/>
         <TextBox HorizontalAlignment="Left" Height="23" Margin="266,476,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
 

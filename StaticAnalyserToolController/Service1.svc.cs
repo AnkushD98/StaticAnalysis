@@ -61,11 +61,9 @@ namespace StaticAnalyserToolController
         {
             
                 GithubCodeDownloader.GithubCodeDownloader githubDownload = new GithubCodeDownloader.GithubCodeDownloader();
-                Thread thread = new Thread(() => { githubDownload.DownloadCode(userName, repositoryName); });
-                thread.Start();
-                thread.Join();
+                 githubDownload.DownloadCode(userName, repositoryName);
                 StaticAnalyserToolSchedular.StaticAnalyserToolSchedular toolSchedular = new StaticAnalyserToolSchedular.StaticAnalyserToolSchedular(new RunToolResharper.Service1(),new ParseReportResharper.Service1(),repositoryName);
-                return toolSchedular.totalNumberOfIssues;
+                return toolSchedular.TotalNumberOfIssues;
             
             
 
